@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+.title {
+    font-family:  'Playfair Display', serif;
+    color: rgba(123, 130, 189, 0.6);
+    text-shadow: .2rem .2rem .2rem #333;
+    font-size: 65px;
+    -webkit-text-stroke: 1.5px rgb(255, 255, 255);
+}
+
+.bn-lista {
+    background-color: rgba(118, 183, 243, 0.6);
+    border-radius: 10px;
+}
+
+.bn-slider {
+    width: 80%;
+    border-radius: 8px;
+
+}
+
+.content-uno, .content-dos, .content-tres, .content-cuatro {
+    background-color: rgba(159, 168, 252, 0.6);
+
+}
