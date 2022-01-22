@@ -16,7 +16,7 @@
 </head>
 <body>
     <header class="menu-container">
-        <h1 class="title">Cortes & Asociados</h1>
+        <h1 class="title text-center">Cortes & Asociados</h1>
         <nav class="navbar navbar-expand-lg navbar-light bn-lista">
             <div class="container-fluid">
               <a class="navbar-brand me-auto" href="#">Inicio</a>
@@ -44,8 +44,9 @@
               </div>
             </div>
           </nav>
-          <div class="dropdown-divider"></div>                  
+          <div class="dropdown-divider mb-2 mt-2"></div>                  
     </header>
+<section>
     <div id="carouselDark" class="carousel carousel-dark slide mx-auto" data-bs-ride="carousel">
         <ol class="carousel-indicators mx-auto">
           <li data-bs-target="#carouselDark" data-bs-slide-to="0" class="active"></li>
@@ -78,7 +79,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./src/assets/juiciosorales.jpg" class="d-block w-100" alt="Slide 3">
+            <img src="./src/assets/juiciosorales.jpg" class="d-block w-100" alt="Slide 4">
             <div class="carousel-caption d-none d-sm-block content-cuatro">
               <h3>Desempeño en Juicios Orales</h3>
               <p>Desde nuestro Departamento de Asuntos Penales, proveemos servicios de defensa integral desde el inicio de causa hasta su defensa en Juicio oral y público, siendo el primer estudio en llevar a cabo el patrocinio bajo la modalidad Juicio por Jurados.
@@ -95,67 +96,83 @@
           <span class="visually-hidden">Next</span>
         </a>
       </div>
-    <div class="dropdown-divider"></div>
+    <div class="dropdown-divider mb-3 mt-3"></div>
     <section id="nosotros">
-        <div class="container-nosotros">
+        <div class="container-nosotros d-grid gap-3">
             <h2 class="cabeza-nosotros">Nuestro Equipo</h2>
-            <div>
-                <div class="contenedor-cortes"> 
+            <div class="container">
+                <div class="row">
+                  <div class="col">
                     <div class="img-cortes-uno">
-                        <img src="./src/assets/juridicagrupo1.jpg" alt="estudiojuridico" width="100%" height="100%">
+                        <img src="./src/assets/juridicagrupo1.jpg" alt="estudiojuridico" width="300px" height="auto" class="img-fluid img-cortes-uno">
                         <div class="contenido-cortes-uno">
-                            <h3>Staff Administrativo</h3>
+                            <h3 class="titu-nos">Staff Administrativo</h3>
                             <p>Personal Administrativo de excelencia, que aplican estrictamente un protocolo de actuación en la atención primaria. 
-                                Contamos con sistema de pasantías remuneradas para las cuales se seleccionan a los mejores estudiantes provenientes de todas las universidades del país.</p>
+                                Contamos con sistema de pasantías remuneradas para las cuales se seleccionan a los mejores estudiantes provenientes de todo el país.</p>
+                        </div>
+                  </div>
+                  </div>
+                  <div class="col">
+                    <div class="img-cortes-dos">
+                        <img src="./src/assets/abogado3.jpg" alt="Profesionales" width="300px" height="auto" class="img-fluid img-cortes-dos">
+                        <div class="contenido-cortes-dos">
+                            <h3 class="titu-nos">Estanislao Cortés</h3>
+                            <p>Titular de cátedra de Derecho Penal Económico en la Universidad de Buenos Aires. Doctor en Derecho Penal por la Universidad de Salamanca. 
+                            Ex-Presidente de la Comisión Nacional de Valores y ex integrante del Directorio del Banco Central en el área Legales.
+                            </p>
                         </div>
                     </div>
-                        <div class="img-cortes-dos">
-                            <img src="./src/assets/abogado3.jpg" alt="Profesionales" width="100%" height="100%">
-                            <div class="contenido-cortes-dos">
-                                <h3>Estanislao Cortés</h3>
-                                <p>Titular de cátedra de Derecho Penal Económico en la Universidad de Buenos Aires. Doctor en Derecho Penal por la Universidad de Salamanca. 
-                                Ex-Presidente de la Comisión Nacional de Valores y ex integrante del Directorio del Banco Central en el área Legales.
-                                </p>
-                            </div>
+                  </div>
+                  <div class="col">
+                    <div class="img-cortes-tres">
+                        <img src="./src/assets/juridicagrupo2.jpg" alt="estudiojuridico" width="300px" height="auto" class="img-fluid img-cortes-tres">
+                        <div class="contenido-cortes-tres">
+                            <h3 class="titu-nos">Staff Legales</h3>
+                            <p>Creyendo firmemente en el valor del trabajo en equipo, en Cortés & Asociados todo ingresante con título intermedio habilitante cuenta con la oportunidad de llevar la Procuración de expedientes de cada uno de los socios, dependiendo del área de agrado y especialidad.</p>
                         </div>
-                    
-                        <div class="img-cortes-tres">
-                            <img src="./src/assets/juridicagrupo2.jpg" alt="estudiojuridico" width="100%" height="100%">
-                            <div class="contenido-cortes-tres">
-                                <h3>Staff Legales</h3>
-                                <p>Creyendo firmemente en el valor del trabajo en equipo, en Cortés & Asociados todo ingresante con título intermedio habilitante cuenta con la oportunidad de llevar la Procuración de expedientes de cada uno de los socios, dependiendo del área de agrado y especialidad.</p>
-                            </div>
-                        </div>
+                    </div>
+                  </div>
                 </div>
-            <div class="container-galeria">
-                <div class="img-nos">
-                    <img src="./src/assets/abogado1.jpg" alt="Profesionales" width="100%" height="100%">
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <div class="img-nos">
+                        <img src="./src/assets/abogado1.jpg" alt="Profesionales" width="300px" height="auto" class="img-fluid img-nos">
+                            <div class="contenido">
+                                <h3 class="titu-nos">Georgina Barroso</h3>
+                                 <p>Abogada especialista en Derecho Civil, Comercial y Concursal. Graduada de la Universidad Nacional del Litoral, 
+                                    con una Maestría en Derecho Internacional Privado de la Universidad de Salamanca.</p>
+                    </div>  
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="img-nos"><img src="./src/assets/abogado2.jpg" alt="Profesionales" width="300px" height="auto" class="img-fluid">
                         <div class="contenido">
-                            <h3>Georgina Barroso</h3>
-                             <p>Abogada especialista en Derecho Civil, Comercial y Concursal. Graduada de la Universidad Nacional del Litoral, 
-                                con una Maestría en Derecho Internacional Privado de la Universidad de Salamanca.</p>
-                </div>  
-            </div>
-                <div class="img-nos"><img src="./src/assets/abogado2.jpg" alt="Profesionales" width="100%" height="100%">
-                    <div class="contenido"><h3>Carmela Rodriguez</h3>
-                        <p>Abogada especialista en Derecho de Familia. Ex Titular del Décimo Juzgado de Familia de la Provincia de Mendoza,
-                            Titular de Cátedra en Derecho de Familia para la Universidad de Bologna.
-                        </p>
-                    </div>
-            </div>
-                <div class="img-nos"><img src="./src/assets/abogado5.jpg" alt="Profesionales" width="100%" height="100%">
-                <div class="contenido-img">
-                    <div class="contenido">
-                        <h3>Santiago Garay</h3>
-                    <p>Abogado especialista en Derecho Penal y Comercial. Ex Fiscal de Instrucción de la Primera Circunscripción en Provincia de Córdoba, actual integrante
-                        de la Comisión Evaluadora de CONEAU.
-                    </p></div>
-                    </div>
+                            <h3 class="titu-nos">Carmela Rodriguez</h3>
+                            <p>Abogada especialista en Derecho de Familia. Ex Titular del Décimo Juzgado de Familia de la Provincia de Mendoza,
+                                Titular de Cátedra en Derecho de Familia para la Universidad de Bologna.
+                            </p>
+                        </div>
                 </div>
-            </div>
+                  </div>
+                  <div class="col">
+                    <div class="img-nos"><img src="./src/assets/abogado5.jpg" alt="Profesionales" width="300px" height="auto" class="img-fluid">
+                        <div class="contenido-img">
+                            <div class="contenido">
+                                <h3 class="titu-nos">Santiago Garay</h3>
+                            <p>Abogado especialista en Derecho Penal y Comercial. Ex Fiscal de Instrucción de la Primera Circunscripción en Provincia de Córdoba, actual integrante
+                                de la Comisión Evaluadora de CONEAU.
+                            </p></div>
+                            </div>
+                  </div>
+                </div>
+              </div>
+           </div>
         </div>
     </section>
-    <div class="dropdown-divider"></div>
+    <div class="dropdown-divider mt-3 mb-3"></div>
+ </section>
     <section id="faq">
         <div class="faq-cabeza">
             <h2 class="cabeza-preguntas">Preguntas Frecuentes</h2>
