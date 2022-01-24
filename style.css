@@ -1,21 +1,34 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap');
 .title {
-    font-family:  'Playfair Display', serif;
-    color: rgba(123, 130, 189, 0.6);
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
     text-shadow: .2rem .2rem .2rem #333;
     font-size: 4em;
-    -webkit-text-stroke: 1.5px rgb(255, 255, 255);
+}
+header {
+    background-color:   #1F2023;
+}
+.nav-item {
+    font: white;
+}
 
+.dropdown-divider {
+    background-color:   #1F2023;
+    padding: 10px;
 }
 
 /* FIN HEADER */
 
 /* SECCION UNO */
 
+body {
+background-color: #585D63;
+}
+
 .bn-lista {
-    background-color: rgba(118, 183, 243, 0.6);
+    background-color: rgba(126, 133, 141, 0.6);
     border-radius: 10px;
     size: 0.2em;
 }
@@ -26,7 +39,7 @@
 }
 
 .content-uno, .content-dos, .content-tres, .content-cuatro {
-    background-color: rgba(159, 168, 252, 0.6);
+    background-color: rgba(144, 144, 150, 0.6);
     border-radius: 8px;
     font-size: 1em;
 }
@@ -36,14 +49,13 @@
 /* INICIO SECCION DOS */
 
 .cabeza-nosotros {
-    font-family:  'Playfair Display', serif;
-    color: rgba(123, 130, 189, 0.6);
-    text-shadow: .1rem .1rem .1rem #333;
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    text-shadow: .2rem .2rem .2rem rgb(15, 15, 15);
     margin-bottom: 1rem;
     letter-spacing: 0.2rem;
-    text-transform: uppercase;
-    -webkit-text-stroke: 1px black;
     text-align: center;
+    font-weight: bold;
 }
 
 
@@ -64,6 +76,7 @@
     border-top-left-radius: 10px;
     overflow: hidden;
     box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+    background-color: #E0E2E4;
 }
 .img-barro, .img-rodri, .img-garay {
     width: 300px;
@@ -75,6 +88,7 @@
     border-top-left-radius: 10px;
     overflow: hidden;
     box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+    background-color: #E0E2E4;
 }
 .img-barro:hover {
     transform: translateY(-2%);
@@ -98,14 +112,14 @@
 
 /* INICIO SECCION TRES */
 
-#id-faq {
+#section-faq {
     box-sizing: 80%;
     width: 100%;
 }
 
 .img-faq {
     width: 250px;
-    background-color: rgba(159, 168, 252, 0.6);
+    background-color: #E0E2E4;
     height: auto;
     border-radius: 8px;
     text-align: center;
@@ -123,14 +137,13 @@
 
 
 .cabeza-preguntas {
-    font-family:  'Playfair Display', serif;
-    color: rgba(123, 130, 189, 0.6);
-    text-shadow: .1rem .1rem .1rem #333;
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    text-shadow: .2rem .2rem .2rem rgb(15, 15, 15);
     margin-bottom: 1rem;
     letter-spacing: 0.2rem;
-    text-transform: uppercase;
-    -webkit-text-stroke: 1px black;
     text-align: center;
+    font-weight: bold;
 }
 .pregunta-uno, .pregunta-dos, .pregunta-tres {
     font-size: 1em;
@@ -140,7 +153,6 @@
 
 .collapse {
     width: 80%;
-    
 }
 
 
@@ -149,14 +161,13 @@
 /* INICIO SECCION CUATRO */
 
 .cabeza-publi {
-    font-family:  'Playfair Display', serif;
-    color: rgba(123, 130, 189, 0.6);
-    text-shadow: .1rem .1rem .1rem #333;
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    text-shadow: .2rem .2rem .2rem rgb(15, 15, 15);
     margin-bottom: 1rem;
     letter-spacing: 0.2rem;
-    text-transform: uppercase;
-    -webkit-text-stroke: 1px black;
     text-align: center;
+    font-weight: bold;
 }
 
 .titu-publi {
@@ -177,10 +188,10 @@
 }
 
 .card-body {
-    background-color: rgba(159, 168, 252, 0.6);
+    background-color: rgba(193, 197, 202, 0.5);
     width: 100%;
     border: 0.5px solid black;
-    
+    font: black;
 }
 
 /* FIN SECCION CUATRO */
@@ -189,14 +200,13 @@
 
 
 .oficina {
-    font-family:  'Playfair Display', serif;
-    color: rgba(123, 130, 189, 0.6);
-    text-shadow: .1rem .1rem .1rem #333;
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    text-shadow: .2rem .2rem .2rem rgb(15, 15, 15);
     margin-bottom: 1rem;
     letter-spacing: 0.2rem;
-    text-transform: uppercase;
-    -webkit-text-stroke: 1px black;
     text-align: center;
+    font-weight: bold;
 }
 
 .mza, .caba {
@@ -216,40 +226,50 @@
 
 
 #secundario {
-    font-family:  'Playfair Display', serif;
-    color: rgba(123, 130, 189, 0.6);
-    text-shadow: .1rem .1rem .1rem #333;
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    text-shadow: .2rem .2rem .2rem rgb(15, 15, 15);
     margin-bottom: 1rem;
     letter-spacing: 0.2rem;
-    text-transform: uppercase;
-    -webkit-text-stroke: 1px black;
     text-align: center;
+    font-weight: bold;
     margin-bottom: 10px;
 }
 
 .internacional {
-    width: 80%;
+    width: 50%;
     font-style: italic;
+    font-family: 'Nunito', sans-serif;
 }
 
 /* FIN SECCION CINCO */
 
-/* FOOTER */
+/* INICIO FOOTER */
 
-.cabeza {
-    font-family:  'Playfair Display', serif;
-    color: rgba(123, 130, 189, 0.6);
-    text-shadow: .1rem .1rem .1rem #333;
-    margin-bottom: 1rem;
-    letter-spacing: 0.2rem;
-    text-transform: uppercase;
-    -webkit-text-stroke: 1px black;
-    text-align: center;
-    margin-bottom: 10px;
+footer {
+    background-color: white;
 }
 
 .contacto {
-        font-style: italic;
+    font-family: 'Roboto Slab', serif;
+    color: black;
+    margin-bottom: 1rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.cabeza {
+    font-family: 'Roboto Slab', serif;
+    color: black;
+    margin-bottom: 1rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-style: italic;
 }
 
 .btn-ig {
@@ -261,3 +281,5 @@
     justify-content: center;
     margin-bottom: 10px;
 }
+
+/* FIN FOOTER */

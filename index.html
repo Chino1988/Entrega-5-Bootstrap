@@ -17,7 +17,7 @@
     <h1 class="title text-center">Cortes & Asociados</h1>
     <nav class="navbar navbar-expand-lg navbar-light bn-lista">
       <div class="container-fluid">
-        <a class="navbar-brand ms-5" href="#">Inicio</a>
+        <a class="navbar-brand ms-5 text-light" href="#">Inicio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -25,27 +25,27 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#nosotros">Sobre Nosotros</a>
+              <a class="nav-link active text-light" aria-current="page" href="#section-nosotros">Sobre Nosotros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#faq">Preguntas Frecuentes</a>
+              <a class="nav-link text-light" href="#section-faq">Preguntas Frecuentes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#publicaciones">Publicaciones</a>
+              <a class="nav-link text-light" href="#section-publicaciones">Publicaciones</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#sucursales">Nuestras Oficinas</a>
+              <a class="nav-link text-light" href="#section-sucursales">Nuestras Oficinas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contactanos">Contacto</a>
+              <a class="nav-link text-light" href="#contactanos">Contacto</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="dropdown-divider mb-4 mt-4"></div>
+    <div class="dropdown-divider"></div>
   </header>
-  <section>
+  <section id="section-slider">
     <div id="carouselDark" class="carousel carousel-dark slide mx-auto" data-bs-ride="carousel">
       <ol class="carousel-indicators mx-auto">
         <li data-bs-target="#carouselDark" data-bs-slide-to="0" class="active"></li>
@@ -102,7 +102,7 @@
       </a>
     </div>
     <div class="dropdown-divider mb-4 mt-5"></div>
-    <section id="nosotros">
+    <section id="section-nosotros">
       <div class="container-nosotros d-grid gap-3">
         <h2 class="cabeza-nosotros">Nuestro Equipo</h2>
         <div class="container">
@@ -191,7 +191,7 @@
     </section>
     <div class="dropdown-divider mt-5 mb-4"></div>
   </section>
-  <section id="faq">
+  <section id="section-faq">
     <div class="faq-cabeza">
       <h2 class="cabeza-preguntas">Preguntas Frecuentes</h2>
     </div>
@@ -224,7 +224,7 @@
       </div>
     </div>
     <p>
-      <button class="btn btn-primary img-fluid d-block mx-auto" type="button" data-bs-toggle="collapse"
+      <button class="btn btn-dark text-light img-fluid d-block mx-auto" type="button" data-bs-toggle="collapse"
         data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
         ¿QUÉ PUEDE HACER?
       </button>
@@ -241,10 +241,10 @@
     </div>
   </section>
   <div class="dropdown-divider mt-3 mb-3"></div>
-  <section id="publicaciones">
+  <section id="section-publicaciones">
     <div class="publi-container">
       <h2 class="cabeza-publi">Publicaciones</h2>
-      <h3 class="titu-publi">Accedé a nuestra bibliografía completa abonando tu primera consulta.</h3>
+      <h3 class="titu-publi text-light">Accedé a nuestra bibliografía completa abonando tu primera consulta.</h3>
     </div>
     <div class="card-group mx-auto">
       <div class="card">
@@ -283,15 +283,15 @@
     </div>
   </section>
   <div class="dropdown-divider mb-3 mt-4"></div>
-  <section id="sucursales">
+  <section id="section-sucursales">
     <h2 class="oficina">Nuestras Oficinas</h2>
 
     <div class="container rounded mx-auto d-block">
       <div class="row row-cols-2">
-        <div class="col-texto">
+        <div class="col-texto text-light">
           <h5 class="mza">Avenida Belgrano 130, Ciudad de Mendoza</h5>
         </div>
-        <div class="col-texto">
+        <div class="col-texto text-light">
           <h5 class="caba">Avenida Rivadavia 9133 Oficina 14, CABA</h5>
         </div>
         <div class="col"><iframe class="map"
@@ -303,19 +303,50 @@
       </div>
     </div>
     <h2 id="secundario">Asesoría Internacional</h2>
-    <p class="internacional mx-auto">A partir de acuerdo de colaboración, está en nuestras posibilidades asesorar en
+    <p class="internacional mx-auto text-light">A partir de acuerdo de colaboración, está en nuestras posibilidades asesorar en
       forma conjunta con McKenzie Legal, una firma de Nueva York, para el patrocinio de clientes argentinos en Estados
       Unidos.
     </p>
     <div class="eeuu">
-      <iframe class="eeuu" src="http://www.mckenzie-legal.com/" width="100%" title="Asesorate con Nosotros!"
+      <iframe class="rounded mx-auto d-block" src="http://www.mckenzie-legal.com/" width="60%" title="Asesorate con Nosotros!"
         frameborder="50%"></iframe>
     </div>
   </section>
   <div class="dropdown-divider"></div>
   <footer id="contactanos">
+    <h3 class="contacto">Contáctenos</h3>
     <nav>
-      <h2 class="cabeza">Nuestras redes</h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Oficina</th>
+            <th scope="col">Correo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Camila Rodriguez</td>
+            <td>Ingresos</td>
+            <td>camilarodriguez@estudiocortes.com.ar</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Nicolas Vidal</td>
+            <td>Consultoría</td>
+            <td>nicolasvidal@estudiocortes.com.ar</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Carmen Estebanez</td>
+            <td>Atención Primaria</td>
+            <td>carmenestebanez@estudiocortes.com.ar</td>
+          </tr>
+        </tbody>
+      </table>
+      <h4 class="cabeza">Nuestras redes</h4>
       <div class="container-redes">
         <div class="btn-group" role="group" aria-label="Basic mixed styles example">
           <button type="button" class="btn btn-primary">
